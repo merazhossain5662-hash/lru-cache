@@ -31,7 +31,7 @@ console.log('cache.get("C") ->', cache.get("C"));
 
 console.log('cache.get("A") ->', cache.get("A"));
 
-console.log("\n--- BONUS: TTL / EXPIRATION TEST ---");
+console.log("\n--- OPTIONAL BONUS: TTL / EXPIRATION TEST ---");
 console.log('Adding "TTL_KEY" with 1000ms expiration...');
 cache.put("TTL_KEY", "ExpiresSoon", 1000);
 console.log('cache.get("TTL_KEY") immediately ->', cache.get("TTL_KEY"));
